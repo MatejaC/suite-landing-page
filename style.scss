@@ -1,0 +1,94 @@
+/* Andy Bell’s Modern CSS Reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/*colors*/
+$ream: #F3EDE7;
+$creamWhite: #FAF8F6;
+$darkBlue: #172339;
+$grey: #49566D;
+$radialGradient: #A060FF, #CB30E3, #FFA84E;
+$pinkish: #DB65E2;
+$whiteish: #F2ECE6;
+$yellow: #FCED66;
+$linearGradient:#FF4483, #C929FF00;
+$redish: #FF4E42;
+
+
+
+$Epilogue: 'Epilogue', sans-serif;
+
+
+//background: var(--cream-white, #FAF8F6);
+// .header {
+// color: v$darkBlue;
+// font-family: Epilogue;
+// font-size: 0.875rem;;
+// font-weight: 700;
+// line-height: 1.5rem;
+// }
+
+
