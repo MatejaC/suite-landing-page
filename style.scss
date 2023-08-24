@@ -136,6 +136,11 @@ $ff-Epilogue: "Epilogue", sans-serif;
   font-size: 2.375rem;
   font-weight: 400;
   line-height: 2.75rem;
+  &__pattern {
+    width: 9.467rem;
+    height: 1.1875rem;
+    margin: 0 0 0.5rem 10rem;
+  }
 }
 
 .main-text {
@@ -221,21 +226,20 @@ $ff-Epilogue: "Epilogue", sans-serif;
   letter-spacing: 0.15625rem;
 }
 
-
 .footer {
   display: flex;
-    flex-direction: column;
-    align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 .footer-container {
   display: flex;
   flex-direction: column;
-  
+
   align-items: center;
   gap: 2.0625rem;
 }
 
- .footer-socialM {
+.footer-socialM {
   list-style: none;
   display: flex;
   flex-direction: row;
