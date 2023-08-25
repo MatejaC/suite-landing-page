@@ -85,7 +85,6 @@ $ff-Epilogue: "Epilogue", sans-serif;
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  padding: 1.5rem 1rem;
   background-color: $creamWhite;
   font-family: $ff-Epilogue;
 }
@@ -95,6 +94,7 @@ $ff-Epilogue: "Epilogue", sans-serif;
   justify-content: center;
   align-items: center;
   gap: 5rem;
+  padding: 1.5rem 1rem;
 }
 
 .header-logo {
@@ -129,6 +129,7 @@ $ff-Epilogue: "Epilogue", sans-serif;
 .main-container {
   margin-top: 3rem;
   margin-bottom: 3rem;
+  padding: 1.5rem 1rem;
 }
 
 .main-title {
@@ -148,6 +149,7 @@ $ff-Epilogue: "Epilogue", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.75rem;
+  margin: 2rem 0;
 }
 
 .main-button {
@@ -157,6 +159,12 @@ $ff-Epilogue: "Epilogue", sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 2rem;
+  padding: 0.9rem 2rem;
+  margin-bottom: 3rem;
+}
+
+.main-img-hero > picture > img {
+  margin: 0 auto;
 }
 
 .stats-container {
@@ -166,6 +174,9 @@ $ff-Epilogue: "Epilogue", sans-serif;
   align-content: space-around;
 }
 
+.stats-list {
+  padding: 0;
+}
 .stats-list__nmb {
   list-style: none;
   color: $darkBlue;
@@ -183,6 +194,7 @@ $ff-Epilogue: "Epilogue", sans-serif;
   font-weight: 400;
   line-height: 1.625rem;
   letter-spacing: 0.15625rem;
+  text-transform: uppercase;
 }
 
 .testimonial-container {
@@ -191,12 +203,14 @@ $ff-Epilogue: "Epilogue", sans-serif;
   background-color: $darkBlue;
   color: $creamWhite;
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 .testimonial-title {
   font-size: 2.5rem;
   font-weight: 400;
   line-height: 3rem;
+  padding: 2rem 0;
 }
 
 .testimonial-text {
@@ -204,12 +218,15 @@ $ff-Epilogue: "Epilogue", sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 2rem;
+  padding: 0 1rem 2.5rem 1rem;
 }
 
 .testimonial-signature {
+  text-transform: uppercase;
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 2rem;
+  padding-bottom: 4rem;
 }
 
 .testimonial-signature__name {
@@ -219,7 +236,6 @@ $ff-Epilogue: "Epilogue", sans-serif;
 }
 
 .testimonial-signature__work {
-  text-transform: capitalize;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.625rem;
@@ -231,12 +247,29 @@ $ff-Epilogue: "Epilogue", sans-serif;
   flex-direction: column;
   align-items: center;
 }
+
 .footer-container {
   display: flex;
   flex-direction: column;
-
   align-items: center;
   gap: 2.0625rem;
+  margin-bottom: 4rem;
+}
+
+.footer-logo {
+  color: $darkBlue;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footer-copyright {
+  color: $grey;
+  text-align: center;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 2rem;
 }
 
 .footer-socialM {
