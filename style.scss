@@ -172,11 +172,13 @@ $ff-Epilogue: "Epilogue", sans-serif;
   flex-wrap: wrap;
   flex-direction: column;
   align-content: space-around;
+  margin-bottom: 15rem;
 }
 
 .stats-list {
   padding: 0;
 }
+
 .stats-list__nmb {
   list-style: none;
   color: $darkBlue;
@@ -198,12 +200,24 @@ $ff-Epilogue: "Epilogue", sans-serif;
 }
 
 .testimonial-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
   border-radius: 0.9375rem;
   background: $darkBlue;
   background-color: $darkBlue;
   color: $creamWhite;
   text-align: center;
   margin-bottom: 3rem;
+}
+
+.testimonial-image > picture > img {
+  margin-top: -11rem;
+}
+
+.testimonial-pattern > img {
+  padding-top: 2.5rem;
 }
 
 .testimonial-title {
